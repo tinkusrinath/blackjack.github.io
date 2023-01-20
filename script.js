@@ -10,6 +10,13 @@
     const packObj = {}
 
     // write your code here
+    for(let i=0;i<suits.length;i++){
+        for(let s=0;s<values.length;s++){
+            let str=values[j]+'of'+suits[i];
+            packArr.push(str);
+            packObj[str]=j+1;
+        }
+    }
 
 
     if(!asArray){
